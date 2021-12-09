@@ -6,10 +6,10 @@
 /**/*.icloud
 
 
-packages/*/dist/
+**/dist/
 packages/*/types/
 
-packages/*/.rollup.cache/
+**/.rollup.cache/
 
 # testing
 /coverage
