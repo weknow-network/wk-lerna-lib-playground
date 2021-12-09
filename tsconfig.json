@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      // "@bnayae/wk-lib-consumer-playground": ["wk-lib-consumer-playground"],
+      // "@bnayae/wk-lib-consumer-playground-npm": ["wk-lib-consumer-playground-npm"],
+      "@local/wk-lib-playground": ["wk-lib-playground/src"],
+      "@weknow-network/*": ["*/src"]
+    }
+  }
+}

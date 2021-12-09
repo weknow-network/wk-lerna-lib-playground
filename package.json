@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run --stream --parallel build",
+    "build-sync": "lerna run --stream build",
+    "lint": "lerna run --stream --parallel lint",
+    "test": "lerna run --stream --parallel test",
+    "storybook": "lerna run --stream --parallel storybook",
+    "build-storybook": "lerna run --parallel build-storybook",
+    "lib:build": "lerna run --stream --scope @local/wk-lib-playground build",
+    "app:build": "lerna run --stream --scope={@bnayae/wk-lib-consumer-playground, @bnayae/wk-lib-consumer-playground-npm} build",
+    "app:start": "lerna run --stream --scope @bnayae/wk-lib-consumer-playground start",
+    "app:start-npm": "lerna run --stream --scope @bnayae/wk-lib-consumer-playground-npm start"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

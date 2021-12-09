@@ -1,0 +1,19 @@
+{
+	"files": [
+		{
+			"path": "tsconfig.build.json",
+			"bookmarks": [
+				{
+					"line": 15,
+					"column": 3,
+					"label": " \"jsx\": \"react\", "
+				},
+				{
+					"line": 26,
+					"column": 4,
+					"label": "\"module\": \"commonjs\",   "
+				}
+			]
+		}
+	]
+}

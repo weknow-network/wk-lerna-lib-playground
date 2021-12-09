@@ -1,0 +1,37 @@
+**/node_modules/
+
+
+/**/*.log
+/**/*.psd
+/**/*.icloud
+
+
+packages/*/dist/
+packages/*/types/
+
+packages/*/.rollup.cache/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/storybook-static/
+.env*.local
+packages/*/.next/
+packages/*/out/
+packages/*/storybook-static/
+packages/*/.env*.local
+
+
+# debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+/.vs
+
+
+**/package-lock.json
+
+**/report.*.json
