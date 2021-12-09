@@ -1,5 +1,5 @@
 {
-  "name": "@bnayae/wk-lib-consumer-playground-npm",
+  "name": "@weknow-network/wk-lib-consumer-playground-npm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@bnayae/wk-lib-playground": "^1.0.45",
+    "@weknow-network/wk-lib-playground": "^1.0.45",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",

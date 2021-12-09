@@ -10,9 +10,9 @@
     "storybook": "lerna run --stream --parallel storybook",
     "build-storybook": "lerna run --parallel build-storybook",
     "lib:build": "lerna run --stream --scope @local/wk-lib-playground build",
-    "app:build": "lerna run --stream --scope={@bnayae/wk-lib-consumer-playground, @bnayae/wk-lib-consumer-playground-npm} build",
-    "app:start": "lerna run --stream --scope @bnayae/wk-lib-consumer-playground start",
-    "app:start-npm": "lerna run --stream --scope @bnayae/wk-lib-consumer-playground-npm start"
+    "app:build": "lerna run --stream --scope={@weknow-network/wk-lib-consumer-playground, @weknow-network/wk-lib-consumer-playground-npm} build",
+    "app:start": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground start",
+    "app:start-npm": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground-npm start"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
