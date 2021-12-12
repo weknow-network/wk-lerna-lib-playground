@@ -10,6 +10,6 @@ module.exports = {
           "minify": true,
           "transpileTemplateLiterals": true,
           "pure": false,
-          "namespace": "lib-playground"
+          "namespace": "app-playground"
         }]
 };

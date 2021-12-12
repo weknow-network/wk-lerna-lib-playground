@@ -12,6 +12,7 @@
     "lib:build": "lerna run --stream --scope @weknow-network/wk-lib-playground build",
     "app:build": "lerna run --stream --scope={@weknow-network/wk-lib-consumer-playground, @weknow-network/wk-lib-consumer-playground-npm} build",
     "app-1:build": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground build",
+    "app-2:build": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground-npm build",
     "app:start": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground start",
     "app:start-npm": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground-npm start"
   },

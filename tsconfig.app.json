@@ -19,7 +19,16 @@
     "jsx": "preserve",
     "skipLibCheck": true,
     "incremental": true,
-    "emitDeclarationOnly": false
+    "emitDeclarationOnly": false,
+    "plugins": [
+      {
+        "transform": "typescript-plugin-styled-components",
+        "type": "config",
+
+        // other typescript-plugin-styled-components options can be added here
+        "minify": true,
+        "ssr": true
+    }]
   },
   "exclude": [
     "node_modules"
