@@ -1,3 +1,5 @@
+// credit: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+
 import React from 'react';
 import './Button.css';
 import { IButtonProps } from './IButtonProps';
