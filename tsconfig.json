@@ -6,7 +6,7 @@
     "paths": {
       // "@weknow-network/wk-lib-consumer-playground": ["wk-lib-consumer-playground"],
       // "@weknow-network/wk-lib-consumer-playground-npm": ["wk-lib-consumer-playground-npm"],
-      "@local/wk-lib-playground": ["wk-lib-playground/src"],
+      "@weknow-network/wk-lib-playground": ["wk-lib-playground/src"],
       "@weknow-network/*": ["*/src"]
     }
   }
