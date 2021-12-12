@@ -2,6 +2,7 @@ import babel from 'rollup-plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
+// import { uglify } from "rollup-plugin-uglify";
 import dts from 'rollup-plugin-dts';
 import postcss from 'rollup-plugin-postcss';
 // import autoprefixer from 'autoprefixer';
@@ -28,7 +29,7 @@ export default [
     plugins: [
       peerDepsExternal(),
       typescript({
-        tsconfig: './tsconfig.tmp.json',
+        tsconfig: './tsconfig.build.json',
         exclude: [
           '**/__tests__',
           '**/*.test.ts',
@@ -49,6 +50,7 @@ export default [
       resolve(),
       commonjs(),
       terser(),
+      // uglify(),
     ],
   },
   {

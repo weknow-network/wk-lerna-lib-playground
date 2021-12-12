@@ -4,12 +4,12 @@
 			"path": "tsconfig.build.json",
 			"bookmarks": [
 				{
-					"line": 15,
+					"line": 21,
 					"column": 3,
 					"label": " \"jsx\": \"react\", "
 				},
 				{
-					"line": 26,
+					"line": 32,
 					"column": 4,
 					"label": "\"module\": \"commonjs\",   "
 				}
