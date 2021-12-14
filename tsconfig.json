@@ -2,6 +2,9 @@
   "extends": "./tsconfig.build.json",
 
   "compilerOptions": {
-    "baseUrl": "./packages"
+    "baseUrl": "./packages",
+    "paths": {
+      "@weknow-network/*": ["*/src"]
+    }
   }
 }
