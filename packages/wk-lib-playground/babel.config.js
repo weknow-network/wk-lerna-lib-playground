@@ -4,12 +4,16 @@ module.exports = {
     '@babel/preset-react',
     '@babel/preset-typescript',
   ],
-  "plugins": ["babel-plugin-styled-components",
-        {
-          "ssr": true,
-          "minify": true,
-          "transpileTemplateLiterals": true,
-          "pure": false,
-          "namespace": "lib-playground"
-        }]
+  plugins: [
+    [
+      'babel-plugin-styled-components',
+      {
+        ssr: true,
+        minify: true,
+        transpileTemplateLiterals: true,
+        pure: false,
+        namespace: 'lib-playground',
+      },
+    ],
+  ],
 };

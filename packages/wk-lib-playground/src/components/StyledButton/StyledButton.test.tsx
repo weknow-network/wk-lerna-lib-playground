@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { StyledButton } from './StyledButtonRaw';
+import { StyledButtonRaw } from './StyledButtonRaw';
 
 describe('StyledButton', () => {
   test('renders the Styled Button component', () => {
-    render(<StyledButton label="Hello world!" />);
+    render(<StyledButtonRaw label="Hello world!" />);
   });
 });
