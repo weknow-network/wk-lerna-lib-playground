@@ -1,4 +1,4 @@
-import { b } from "@bnayae/wk-lib-playground";
+import { b } from "@weknow-network/wk-lib-playground";
 import Head from "next/head";
 import React from "react";
 import styles from "../styles/Home.module.css";

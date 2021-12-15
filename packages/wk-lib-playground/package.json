@@ -6,6 +6,7 @@
   "version": "1.0.45",
   "description": "",
   "scripts": {
+    "dev": "rollup -c --watch",
     "build": "rollup -c",
     "publish": "rollup -c && npm publish",
     "test": "jest",
@@ -18,9 +19,7 @@
   "author": "bnaya eshet",
   "license": "MIT",
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "styled-components": "^5.3.3"
-  },
+  "typings": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -75,7 +74,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

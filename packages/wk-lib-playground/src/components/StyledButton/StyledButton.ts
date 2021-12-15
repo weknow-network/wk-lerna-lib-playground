@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { StyledButtonRaw } from './StyledButtonRaw';
 
 export const StyledButton = styled(StyledButtonRaw)`
+  background-color: purple !important;
+
   .button {
     font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
