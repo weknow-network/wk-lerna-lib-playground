@@ -1,19 +1,21 @@
 {
   "name": "root",
   "private": true,
+  "version": "1.0.46",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "dev": "lerna run --parallel dev",
-    "apps-1-and-2:dev": "lerna run --parallel --scope @weknow-network/wk-lib-consumer-playground --scope @weknow-network/wk-lib-consumer-playground-npm dev",
+    "dev": "lerna run --stream --parallel dev",
+    "apps-1-and-2:dev": "lerna run --stream --parallel --scope @weknow-network/wk-lib-consumer-playground --scope @weknow-network/wk-lib-consumer-playground-npm dev",
     "build": "lerna run --stream --parallel build",
     "build-sync": "lerna run --stream build",
     "lint": "lerna run --stream --parallel lint",
     "test": "lerna run --stream --parallel test",
     "storybook": "lerna run --stream --parallel storybook",
     "build-storybook": "lerna run --parallel build-storybook",
-    "lib:build": "lerna run --stream --scope @weknow-network/wk-lib-playground build",
+    "lib:build": "lerna run --stream --scope @weknow-network/wk-lerna-lib-playground build",
+    "lib:publish": "lerna run --stream --scope @weknow-network/wk-lerna-lib-playground publish",
     "app:build": "lerna run --stream --scope={@weknow-network/wk-lib-consumer-playground, @weknow-network/wk-lib-consumer-playground-npm} build",
     "app-1:build": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground build",
     "app-2:build": "lerna run --stream --scope @weknow-network/wk-lib-consumer-playground-npm build",

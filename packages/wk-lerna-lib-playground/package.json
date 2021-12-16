@@ -1,9 +1,9 @@
 {
-  "name": "@weknow-network/wk-lib-playground",
+  "name": "@weknow-network/wk-lerna-lib-playground",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/weknow-network"
   },
-  "version": "1.0.45",
+  "version": "1.0.47",
   "description": "",
   "scripts": {
     "dev": "rollup -c --watch",
