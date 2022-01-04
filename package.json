@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "lerna run --parallel dev",
     "apps-1-and-2:dev": "lerna run --parallel --scope @weknow-network/wk-lib-consumer-playground --scope @weknow-network/wk-lib-consumer-playground-npm dev",
-    "prebuild": "lerna run --stream --scope=@weknow-network/wk-lib-playground build",
-    "build": "lerna run --stream --parallel --ignore=@weknow-network/wk-lib-playground build",
+    "prebuild": "lerna run --stream --scope=@weknow-network/wk-lerna-lib-playground build",
+    "build": "lerna run --stream --parallel --ignore=@weknow-network/wk-lerna-lib-playground build",
     "build-sync": "lerna run --stream build",
     "lint": "lerna run --stream --parallel lint",
     "test": "lerna run --stream --parallel test",
