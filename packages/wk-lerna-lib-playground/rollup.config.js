@@ -28,7 +28,7 @@ export default [
     plugins: [
       peerDepsExternal(),
       typescript({
-        tsconfig: './tsconfig.tmp.json',
+        tsconfig: './tsconfig.json',
         exclude: [
           '**/__tests__',
           '**/*.test.ts',
